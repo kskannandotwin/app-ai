@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MatBottomSheet, MatBottomSheetRef } from '@angular/material/bottom-sheet';
 
 @Component({
   selector: 'app-root',
@@ -9,24 +8,5 @@ import { MatBottomSheet, MatBottomSheetRef } from '@angular/material/bottom-shee
 export class AppComponent {
   title = 'app-ai';
   
-  // bottom sheet
-  constructor(private _bottomSheet: MatBottomSheet) {}
-
-  openBottomSheet() {
-    this._bottomSheet.open(BottomSheetOverviewExampleSheet);
-  }  
-}
-
-@Component({
-  selector: 'bottom-sheet-overview-example-sheet',
-  templateUrl: 'bottom-sheet-overview-example-sheet.html',
-  exportAs: 'BottomSheetOverviewExampleSheet'
-})
-export class BottomSheetOverviewExampleSheet {
-  constructor(private _bottomSheetRef: MatBottomSheetRef<BottomSheetOverviewExampleSheet>) {}
-
-  openLink(event: MouseEvent): void {
-    this._bottomSheetRef.dismiss();
-    event.preventDefault();
-  }
+  // button  
 }
