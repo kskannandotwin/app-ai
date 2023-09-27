@@ -8,6 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatButtonModule,
     MatBottomSheetModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatButtonToggleModule
   ],
   exports: [
     FormsModule,
@@ -32,7 +34,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatButtonModule,
     MatBottomSheetModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatButtonToggleModule
   ]
 })
 export class MaterialModule { }
