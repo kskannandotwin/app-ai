@@ -17,6 +17,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatNativeDateModule,
     MatDialogModule,
     MatExpansionModule,
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ],
   exports: [
     FormsModule,
@@ -59,7 +61,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatNativeDateModule,
     MatDialogModule,
     MatExpansionModule,
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ]
 })
 export class MaterialModule { }
