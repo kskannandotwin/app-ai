@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app-ai';
   
-  // expansion panel
-  panelOpenState = false;  
+  // form field
+  
 }
 
