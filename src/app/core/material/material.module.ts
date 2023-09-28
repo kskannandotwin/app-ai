@@ -23,6 +23,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatRippleModule } from '@angular/material/core';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { MatRadioModule } from '@angular/material/radio';
     MatPaginatorModule,
     MatProgressBarModule,
     MatProgressSpinnerModule,
-    MatRadioModule
+    MatRadioModule,
+    MatRippleModule
   ],
   exports: [
     FormsModule,
@@ -77,7 +79,8 @@ import { MatRadioModule } from '@angular/material/radio';
     MatPaginatorModule,
     MatProgressBarModule,
     MatProgressSpinnerModule,
-    MatRadioModule
+    MatRadioModule,
+    MatRippleModule
   ]
 })
 export class MaterialModule { }
