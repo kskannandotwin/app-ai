@@ -29,6 +29,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSortModule } from '@angular/material/sort';
+import { MatStepperModule } from '@angular/material/stepper';
 
 @NgModule({
   imports: [
@@ -62,7 +63,8 @@ import { MatSortModule } from '@angular/material/sort';
     MatSlideToggleModule,
     MatSliderModule,
     MatSnackBarModule,
-    MatSortModule
+    MatSortModule,
+    MatStepperModule
   ],
   exports: [
     FormsModule,
@@ -95,7 +97,8 @@ import { MatSortModule } from '@angular/material/sort';
     MatSlideToggleModule,
     MatSliderModule,
     MatSnackBarModule,
-    MatSortModule
+    MatSortModule,
+    MatStepperModule
   ]
 })
 export class MaterialModule { }
