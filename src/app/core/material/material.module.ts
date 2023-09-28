@@ -19,6 +19,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   imports: [
@@ -42,7 +43,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatExpansionModule,
     MatGridListModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatPaginatorModule
   ],
   exports: [
     FormsModule,
@@ -65,7 +67,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatExpansionModule,
     MatGridListModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatPaginatorModule
   ]
 })
 export class MaterialModule { }
