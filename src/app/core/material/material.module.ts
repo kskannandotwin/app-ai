@@ -11,6 +11,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatChipsModule } from '@angular/material/chips';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     MatSidenavModule,
     MatButtonToggleModule,
     MatCardModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatChipsModule
   ],
   exports: [
     FormsModule,
@@ -41,7 +43,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     MatSidenavModule,
     MatButtonToggleModule,
     MatCardModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatChipsModule
   ]
 })
 export class MaterialModule { }
