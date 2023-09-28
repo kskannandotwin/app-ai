@@ -1,9 +1,10 @@
-<h1>Basic - chips</h1>
+<h1>Basic - datepicker</h1>
 <section>
-  <mat-chip-listbox aria-label="Fish selection">
-    <mat-chip-option>One fish</mat-chip-option>
-    <mat-chip-option>Two fish</mat-chip-option>
-    <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
-    <mat-chip-option color="warn">Warn fish</mat-chip-option>
-  </mat-chip-listbox>
+  <mat-form-field>
+    <mat-label>Choose a date</mat-label>
+    <input matInput [matDatepicker]="picker">
+    <mat-hint>MM/DD/YYYY</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
 </section>
