@@ -30,6 +30,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSortModule } from '@angular/material/sort';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   imports: [
@@ -64,7 +65,8 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatSliderModule,
     MatSnackBarModule,
     MatSortModule,
-    MatStepperModule
+    MatStepperModule,
+    MatTableModule
   ],
   exports: [
     FormsModule,
@@ -98,7 +100,8 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatSliderModule,
     MatSnackBarModule,
     MatSortModule,
-    MatStepperModule
+    MatStepperModule,
+    MatTableModule
   ]
 })
 export class MaterialModule { }
