@@ -1,6 +1,6 @@
-<h1>Basic - list</h1>
-<mat-list role="list">
-  <mat-list-item role="listitem">Item 1</mat-list-item>
-  <mat-list-item role="listitem">Item 2</mat-list-item>
-  <mat-list-item role="listitem">Item 3</mat-list-item>
-</mat-list>
+<h1>Basic - menu</h1>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>

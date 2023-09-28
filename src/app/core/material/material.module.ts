@@ -18,6 +18,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   imports: [
@@ -40,7 +41,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatDialogModule,
     MatExpansionModule,
     MatGridListModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule
   ],
   exports: [
     FormsModule,
@@ -62,7 +64,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatDialogModule,
     MatExpansionModule,
     MatGridListModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule
   ]
 })
 export class MaterialModule { }
