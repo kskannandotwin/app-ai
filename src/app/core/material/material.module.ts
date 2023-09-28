@@ -24,6 +24,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatRippleModule } from '@angular/material/core';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   imports: [
@@ -52,7 +53,8 @@ import { MatRippleModule } from '@angular/material/core';
     MatProgressBarModule,
     MatProgressSpinnerModule,
     MatRadioModule,
-    MatRippleModule
+    MatRippleModule,
+    MatSelectModule
   ],
   exports: [
     FormsModule,
@@ -80,7 +82,8 @@ import { MatRippleModule } from '@angular/material/core';
     MatProgressBarModule,
     MatProgressSpinnerModule,
     MatRadioModule,
-    MatRippleModule
+    MatRippleModule,
+    MatSelectModule
   ]
 })
 export class MaterialModule { }

@@ -8,13 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app-ai';
   
-  // ripples
-  centered = false;
-  disabled = false;
-  unbounded = false;
-
-  radius!: number;
-  color!: string;
+  // select 
   
 }
 
