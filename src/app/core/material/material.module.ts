@@ -27,6 +27,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   imports: [
@@ -58,7 +59,8 @@ import { MatSliderModule } from '@angular/material/slider';
     MatRippleModule,
     MatSelectModule,
     MatSlideToggleModule,
-    MatSliderModule
+    MatSliderModule,
+    MatSnackBarModule
   ],
   exports: [
     FormsModule,
@@ -89,7 +91,8 @@ import { MatSliderModule } from '@angular/material/slider';
     MatRippleModule,
     MatSelectModule,
     MatSlideToggleModule,
-    MatSliderModule
+    MatSliderModule,
+    MatSnackBarModule
   ]
 })
 export class MaterialModule { }
