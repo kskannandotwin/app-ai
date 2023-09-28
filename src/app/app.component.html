@@ -1,15 +1,22 @@
-<h1>Basic - snackbar</h1>
-<mat-form-field>
-  <mat-label>Message</mat-label>
-  <input matInput value="Disco party!" #message>
-</mat-form-field>
+<h1>Basic - sort header</h1>
+<table matSort (matSortChange)="sortData($event)">
+  <tr>
+    <th mat-sort-header="name">Dessert (100g)</th>
+    <th mat-sort-header="calories">Calories</th>
+    <th mat-sort-header="fat">Fat (g)</th>
+    <th mat-sort-header="carbs">Carbs (g)</th>
+    <th mat-sort-header="protein">Protein (g)</th>
+  </tr>
 
-<mat-form-field>
-  <mat-label>Action</mat-label>
-  <input matInput value="Dance" #action>
-</mat-form-field>
+  <tr *ngFor="let dessert of sortedData">
+    <td>{{dessert.name}}</td>
+    <td>{{dessert.calories}}</td>
+    <td>{{dessert.fat}}</td>
+    <td>{{dessert.carbs}}</td>
+    <td>{{dessert.protein}}</td>
+  </tr>
+</table>
 
-<button mat-stroked-button (click)="openSnackBar(message.value, action.value)">Show snack-bar</button>
 
 
 
